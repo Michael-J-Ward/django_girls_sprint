@@ -20,3 +20,6 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def __repr__(self):
+        return "<Post title={}".format(self.title)
