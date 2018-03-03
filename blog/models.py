@@ -22,4 +22,4 @@ class Post(models.Model):
         return self.title
 
     def __repr__(self):
-        return "<Post title={}".format(self.title)
+        return "<Post title={}>".format(self.title)
